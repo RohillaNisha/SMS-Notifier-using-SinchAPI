@@ -1,0 +1,8 @@
+services:
+  sinch-sms:
+    container_name: sinchsms
+    build:
+      context: .
+      dockerfile: Dockerfile     
+    ports:
+      - "8080:8080"
